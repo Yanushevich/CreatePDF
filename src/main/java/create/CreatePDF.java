@@ -53,7 +53,7 @@ public class CreatePDF {
 			e.printStackTrace();
 		}
 		
-		String string_pdf = "Добрый день замечательные группы ПИ второго курса кафедры АСУ УГАТУ! Тестовое приложения для создания PDF файла.";
+		String string_pdf = "Первый разработчик создал ветку и внес изменения в строку";
 		Paragraph paragraph = new Paragraph();
 	    paragraph.add(new Paragraph(string_pdf, new Font(times,14)));
 	    
