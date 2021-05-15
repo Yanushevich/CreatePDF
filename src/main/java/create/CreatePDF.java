@@ -57,7 +57,7 @@ public class CreatePDF {
 		Paragraph paragraph = new Paragraph();
 	    paragraph.add(new Paragraph(string_pdf, new Font(times,14)));
 	    
-	    String string_pdf2 = "ƒополнительный текст, который выводитс€ в PDF. ѕри этом нужно понимать, что можно указывать значени€ переменных, которые будут выводитс€ в файл PDF.";
+	    String string_pdf2 = "PDF файл успешно создан ";
 	    paragraph.add(new Paragraph(string_pdf2, new Font(times,14)));
 	
 	    try {
