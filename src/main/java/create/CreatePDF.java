@@ -36,7 +36,7 @@ public class CreatePDF {
 		}
 		filepath=abspath+"webapps/CreatePDF/Check.pdf";
 		String imagepath=abspath+"webapps/CreatePDF/picture/ugatu.png";
-		String fontpath =abspath+"/webapps/CreatePDF/fonts/times.ttf";
+		String fontpath =abspath+"webapps/CreatePDF/fonts/times.ttf";
     	
 		try {	
 			PdfWriter.getInstance(document, new FileOutputStream(filepath));
